@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color-->
+
+    <!--<color name="colorPrimary">#d81b60</color>-->
+    <!--<color name="colorPrimaryDark">#a00037</color>-->
+    <!--<color name="colorAccent">#81c784</color>-->
+
+    <color name="colorPrimary">#f44336</color>
+    <color name="colorPrimaryDark">#a00037</color>
+    <color name="colorAccent">#81c784</color>
+
+    <color name="color_recipe_list_item_bg">#a00037</color>
+    <color name="color_recipe_list_item_text">#ffeb3b</color>
+
+    <color name="color_recipe_step_item_bg">#a00037</color>
+    <color name="color_recipe_step_item_text">#ffeb3b</color>
+
+</resources>

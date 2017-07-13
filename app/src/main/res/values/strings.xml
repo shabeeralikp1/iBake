@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">iBake</string>
+
+    <string name="error_message">An error has occurred. Please try again</string>
+    <string name="no_internet_connection">Internet connection not available.Please try agian</string>
+    <string name="try_again">Try Again</string>
+
+    <string name="recipes_url">https://d17h27t6h515a5.cloudfront.net/topher/2017/May/59121517_baking/baking.json</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

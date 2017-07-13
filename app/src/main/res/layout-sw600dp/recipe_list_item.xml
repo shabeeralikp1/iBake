@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/recipe_list_item_height"
+    android:layout_marginLeft="@dimen/recipe_list_item_margin_left"
+    android:layout_marginRight="@dimen/recipe_list_item_margin_right"
+    android:layout_marginTop="@dimen/recipe_list_item_margin_top"
+    android:layout_marginBottom="@dimen/recipe_list_item_margin_bottom"
+    android:orientation="horizontal"
+    android:background="@color/color_recipe_list_item_bg">
+
+    <TextView
+        android:id="@+id/tv_recipe_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text=""
+        android:textSize="@dimen/recipe_list_item_text_size"
+        android:textColor="@color/color_recipe_list_item_text"
+        android:textStyle="bold"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:padding="@dimen/recipe_list_item_text_padding"/>
+
+    <ImageView
+        android:id="@+id/iv_recipe_image"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+</LinearLayout>

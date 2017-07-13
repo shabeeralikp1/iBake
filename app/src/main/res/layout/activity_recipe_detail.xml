@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sample_main_layout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/recipe_detail_recipe_name_height"
+        android:text=""
+        android:textStyle="bold"
+        android:id="@+id/tv_recipe_name"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/recipe_detail_recipe_name_text_size"
+        />
+
+    <FrameLayout
+        android:id="@+id/recipe_steps_list_container"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0px" />
+
+</LinearLayout>
